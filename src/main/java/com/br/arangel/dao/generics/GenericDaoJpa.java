@@ -13,7 +13,7 @@ import jakarta.persistence.TypedQuery;
 
 public class GenericDaoJpa<T, E> implements IGenericDaoJpa<T, E> {
     private EntityManagerFactory factory;
-    private final String PERSISTENCE_UNIT_NAME = "postgres1";
+    private final String PERSISTENCE_UNIT_NAME = "mod38";
     protected EntityManager manager;
     protected Class<T> persistentClass;
     private String persistentUnitName;
